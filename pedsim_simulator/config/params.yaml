@@ -1,9 +1,9 @@
 pedsim_simulator:
   ros__parameters:
-    odom_frame_id:        "odom"
-    base_frame_id:        "base_footprint"
+    odom_frame_id:        "locobot/odom"
+    base_frame_id:        "locobot/base_footprint"
     groups_enabled:       true
-    max_robot_speed:      0.3
+    max_robot_speed:      0.5
     update_rate:          25.0
     simulation_factor:    1.0
     op_mode:              1
