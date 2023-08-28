@@ -4,9 +4,9 @@ pedsim_simulator:
     base_frame_id:        "locobot/base_footprint"
     groups_enabled:       true
     max_robot_speed:      0.5
-    update_rate:          25.0
+    update_rate:          15.0
     simulation_factor:    1.0
-    op_mode:              1
+    op_mode:              0 # CONTROLLED = 0, TELEOPERATION = 1, SOCIAL_DRIVE = 2
     queue_size:           10
     robot_radius:         0.2
     agent_radius:         0.25
